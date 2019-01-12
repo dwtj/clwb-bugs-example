@@ -1,11 +1,10 @@
 # CLion With Bazel Bugs Demo
 
-This repository can be used to demonstrate three potential bugs in CLion with
-Bazel:
+This repository is intended to be used to demonstrate two potential bugs in the
+CLion Bazel plugin:
 
 - CLion does not find stdlib `assert()` macro
-- CLion `lldb` debug fails
-- CLion `gdb` debug fails
+- CLion Fails to Debug `cc_binary` target
 
 I intend to file each as a GitHub issue at `bazelbuild/intellij`.
 
