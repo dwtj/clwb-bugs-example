@@ -3,8 +3,8 @@
 This repository is intended to be used to demonstrate two potential bugs in the
 CLion Bazel plugin:
 
-- CLion does not find stdlib `assert()` macro
-- CLion Fails to Debug `cc_binary` target
+- CLion does not find stdlib `assert()` macro (Issue #493)
+- CLion Fails to Debug `cc_binary` target (Issue #494)
 
 I intend to file each as a GitHub issue at `bazelbuild/intellij`.
 
